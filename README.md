@@ -11,7 +11,7 @@ Petite application web réalisée en **HTML / CSS / JavaScript** dans le but de 
 
 ## 🌐 Démo
 Le projet est hébergé avec **GitHub Pages** :  
-👉 
+👉 https://mxou.github.io/Bankoop
 
 ---
 
