@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Bankoop</title>
+  </head>
+  <body>
+    <h1>Simulateur de comptes bancaires en POO JS</h1>
+
+    <section>
+      <button class="new_account_button">Ajouter un compte</button>
+
+      <div class="new_account_register">
+        <button class="close_account_register_button">X</button>
+        <p>Entrez les informations de ce compte</p>
+        <input class="input_titulaire" type="text" placeholder="Prénom du titulaire" required />
+        <input class="input_solde" type="number" placeholder="Solde de départ" required />
+        <input class="input_interets" type="number" placeholder="Taux d'intérêts (%)" disabled />
+        <select class="account_type" required>
+          <option value="courant">Compte courant</option>
+          <option value="epargne">Compte épargne</option>
+        </select>
+        <button class="create_new_account_button">Valider</button>
+      </div>
+
+      <div class="user_dashboard">
+        <div class="accounts_container"></div>
+      </div>
+      <p>Aucun local storage de mis en place, a chaque refresh les comptes disparaitront</p>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
